@@ -66,3 +66,5 @@ people = int(input("How many people to split bill? "))
 procentages_all = (100 + procentages) / 100 
 total_for_person = round(total * procentages_all / people, 2) 
 print(f"Each person should pay: ${total_for_person}")
+
+https://replit.com/@KornelijaZachar/tip-calculator-start#main.py
