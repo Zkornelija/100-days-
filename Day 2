@@ -1,0 +1,68 @@
+#Data Types
+#print("Hello"[4])
+#String
+#"hello"
+#Integer 
+#paprasti skaiciai 1234
+#Dideliems skaiciams galimas 123_321_3123 
+#Float
+#skaiciai su kableliu 3.14241
+#Boolean
+True 
+False 
+
+
+#Boolean
+True 
+False 
+a = print(3*(3+3)/3-3)
+print(type("a"))
+print(round(8/3))
+#print(round(8/2, 3)) suapvalinta
+
+
+result = 4/2 
+result /=2 
+
+#f-string 
+score = 0 
+height = 1.8
+isWining = True 
+
+print(f"your score is {score}, your height is {height} you are wining is {isWining}")
+
+#Task 1 
+two_digit_number = input("Type a two digit number: ")
+a = int(two_digit_number[0])
+b = int(two_digit_number[1])
+print( a + b)
+
+
+#Task 2 
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+ 
+a = float(height)
+b = float(weight)
+
+BMI = b / a**2 
+print(int(BMI))
+
+#Task 3 
+age = input("What is your current age?")
+
+age_number = 90 - int(age)
+months = age_number * 12 
+weeks = age_number * 52 
+days = age_number * 365
+
+print(f"You have {days} days, {weeks} weeks, and {months} months left.")
+
+# Task 4 
+print("Welcome to the tip calculator")
+total = int(input("What was the total bill? "))
+procentages = int(input("What precentage tip would you like to give? 10, 12, or 15? "))
+people = int(input("How many people to split bill? "))
+procentages_all = (100 + procentages) / 100 
+total_for_person = round(total * procentages_all / people, 2) 
+print(f"Each person should pay: ${total_for_person}")
