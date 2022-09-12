@@ -1,0 +1,99 @@
+
+#water_level = 50
+#if water_level > 80:
+#print("drain water")
+#else: 
+#print("Continue")
+#== equal to
+#!= not equal to
+if height >= 125: 
+  print("Can ride!")
+else: 
+  print("Can't ride!")
+  
+  
+ Task #1
+number = int(input("Which number do you want to check? "))
+
+if number%==0:
+  print("This is an even number.")
+else:
+  print("This is an odd number.")
+
+Task #2 
+height = float(input("enter your height in m: "))
+weight = float(input("enter your weight in kg: "))
+BMI = float(weight / height **2)
+BMI = round(BMI)
+if BMI < 18.5:
+  print(f"Your BMI is {BMI}, you are underweight.")
+elif BMI <25:
+  print(f"Your BMI is {BMI}, you have a normal weight.")
+elif BMI <30:
+  print(f"Your BMI is {BMI}, you are slightly overweight.")
+elif BMI <35:
+  print(f"Your BMI is {BMI}, you are obese.")
+else:
+  print(f"Your BMI is {BMI}, you are clinically obese.")
+  
+Task #3
+year = int(input("Which year do you want to check? "))
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+
+if year%4 >0:
+  print("Not Leap year.")
+else:
+  #print("Leap year.")
+  if year%100 >0:
+    print("Leap year.")
+  else:
+    #print("Not Leap year.")
+    if year%400 >0:
+      print("Not Leap year.")
+    else:
+      print("Leap year")
+
+Task #4
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+name_a = name1.lower()
+name_b = name2.lower()
+t_letter = int(name_a.count("t")) + int(name_b.count('t'))
+r_letter = int(name_a.count("r")) + int(name_b.count('r'))
+u_letter = int(name_a.count("u")) + int(name_b.count('u'))
+e_letter = int(name_a.count("e")) + int(name_b.count('e'))    
+l_letter = int(name_a.count("l")) + int(name_b.count('l'))
+o_letter = int(name_a.count("o")) + int(name_b.count('o'))
+v_letter = int(name_a.count("v")) + int(name_b.count('v'))
+e_letter = int(name_a.count("e")) + int(name_b.count('e'))
+
+pirmas_skaicius = t_letter + r_letter + u_letter + e_letter 
+antras_skaicius = l_letter + o_letter + v_letter + e_letter
+
+bendras_skaicius = int(str(pirmas_skaicius) + str(antras_skaicius))
+
+if bendras_skaicius <=10: 
+  print(f"Your score is {bendras_skaicius}, you go together like coke and mentos.")
+elif bendras_skaicius >90:
+  print(f"Your score is {bendras_skaicius}, you go together like coke and mentos.")
+elif bendras_skaicius <50>40:
+  print(f"Your score is {bendras_skaicius}, you are alright together.")
+elif bendras_skaicius <50:
+  print(f"Your score is {bendras_skaicius}.")
+else:
+  print(f"Your score is {bendras_skaicius}.")
+  
+  
+  
+
+
+
+https://ascii.co.uk/art
+https://app.diagrams.net/
