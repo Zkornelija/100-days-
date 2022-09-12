@@ -68,3 +68,51 @@ total_for_person = round(total * procentages_all / people, 2)
 print(f"Each person should pay: ${total_for_person}")
 
 https://replit.com/@KornelijaZachar/tip-calculator-start#main.py
+
+
+GAME :D 
+print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.") 
+
+#https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
+
+#Write your code below this line 👇
+print("Before you there is a long way out, you will have to make tough choices and not everybody can do that so be sure on what you are trying to do!")
+First_step = input("Now pick a side left or right?").lower()
+if First_step == "right":
+  print("Oh! You picked right side but not right choice you are dead now. the moment you took your first step you felt something underneth your legs, that was a snake that bit you and there is no way you are getting back from it. GAME OVER")
+else:
+  print("Going left was the right way to go! You skipped all snakes and now you see a small river.")
+  Next_step = input("What are you doing next? Swimming thro it or waiting for a boat that is coing your way?").lower()
+  if Next_step == "swimming":
+    print("The second you steped in there was a shar that ate you. GAME OVER niam niam")
+  else:
+    print("SO you went left and waited for a boat that nice of you! When you jumep out of boat there was a small castle you walked in.")
+    Door_step = input("In witch there are 3 doors: red, yealow, blue. Witch one do you go throgh").lower()
+    if Door_step == "blue":
+      print("You open the door and there is a huge tresure waiting for you! Congradulations! You WON!!")
+    else:
+      print("Tresure was not here! after you open this door there was a huge and beautiful dragon how attaced you. And we all know that you won't beat a dragon. SO GAME OVER and RIP")
+    
