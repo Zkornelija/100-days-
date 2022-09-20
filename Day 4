@@ -99,7 +99,7 @@ elif pasirinkimas == "1":
 elif pasirinkimas == "2":
   print(scissors)
 else:
-  print("OBEY RULES")
+  print("OBEY RULES") 
 
 print("Computer choose:")
 import random
